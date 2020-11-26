@@ -7,7 +7,7 @@ cleanup() {
     exit $err
 }
 
-trap cleanup SIGINT EXIT
+trap 1000 SIGINT EXIT
 
 # Make sure docker-compose is installed
 if ! hash docker-compose 2>/dev/null; then

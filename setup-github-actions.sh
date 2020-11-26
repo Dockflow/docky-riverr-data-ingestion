@@ -3,7 +3,7 @@
 
 project_name="docker-express-typescript-boilerplate"
 filename=".github/workflows/latest.yml"
-default_repo="sidhantpanda/docker-express-typescript-boilerplate/docker-express-typescript-boilerplate"
+default_repo="Dockflow/docky-riverr-data-ingestion/docker-express-typescript-boilerplate"
 
 configure_github_actions() {
   read -p "Enter your Github username: "  github_user
